@@ -11,7 +11,7 @@ readStates <- function(states)
     states <- states[-num.row,]
     
     # remover the first for coclumns
-    state <- states[,-1:-4]
+    states <- states[,-1:-4]
     
     # change names for remaining coclumns
     colnames(states) <- c("stateName", "population","popOver18", "percentOver18")

@@ -30,12 +30,15 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 15:18:36",
+    "updated_at": "2018-10-04 15:30:35",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

@@ -8,7 +8,7 @@ readStates <- function(states)
     states <- states[-1,]
     #-- last row is Puerto Rico, it is not a states
     num.row <- nrow(states)
-    states <- states[-num.row]
+    states <- states[-num.row,]
     
     # remover the first for coclumns
     state <- states[,-1:-4]

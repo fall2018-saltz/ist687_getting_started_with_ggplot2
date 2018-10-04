@@ -22,3 +22,9 @@ readStates <- function(states)
 
 cleanCencus <- readStates(raw_data)
 str(cleanCencus)
+
+
+# HW 2
+arrests <- USArrests  
+bestAssault <- arrests[which.max(-arrests$Assault),]   
+row.names(bestAssault)   

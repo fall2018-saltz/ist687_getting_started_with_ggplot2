@@ -43,6 +43,16 @@
             ],
             "source": "HW6_Yao_Wang.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist3",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "hist3.png"
         }
     ],
     "nodes": [
@@ -68,6 +78,6 @@
             "name": "hist3.png"
         }
     ],
-    "updated_at": "2018-10-11 15:30:07",
+    "updated_at": "2018-10-11 15:30:16",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

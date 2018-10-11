@@ -83,6 +83,16 @@
             ],
             "source": "HW6_Yao_Wang.R",
             "target": "boxplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "boxplot2.png"
         }
     ],
     "nodes": [
@@ -120,6 +130,6 @@
             "name": "boxplot2.png"
         }
     ],
-    "updated_at": "2018-10-11 15:33:02",
+    "updated_at": "2018-10-11 15:33:14",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

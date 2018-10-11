@@ -73,12 +73,14 @@ ggplot(Newarrests, aes(factor(0), y=Murder)) + geom_boxplot()
 # 7	Calculate the number of murders per state
 # per 100,000 residents
 murderPerState <- (Newarrests$population*Newarrests$Murder)/100000
-NewTotal <- cbind(murderPerState, Newarrests)
+NewTotal <- cbind(Newarrests, murderPerState)
   
 # 8 Generate a bar chart, with the number of murders per state
+# Hint: use the geom_col function
 ggplot(NewTotal, aes(x=stateName, y=murderPerState, group=1)) + geom_col()
 
 # 9 a bar chart, with the number of murders per state
+# Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
 ggplot(NewTotal, aes(x=stateName, y=murderPerState))+geom_col()+
   theme(axis.text.x =element_text(angle=90,hjust=1)) + ggtitle ("Total Murders")
 
@@ -86,6 +88,7 @@ ggplot(NewTotal, aes(x=stateName, y=murderPerState))+geom_col()+
 ggplot(NewTotal, aes(x=reorder(stateName,murderPerState), y=murderPerState))+
   geom_col()+
   theme(axis.text.x =element_text(angle=90,hjust=1)) + ggtitle ("Total Murders")
+
 # 11 Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
 ggplot(NewTotal, aes(x=reorder(stateName,murderPerState), y=murderPerState, fill = percentOver18))+
   geom_col()+

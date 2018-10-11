@@ -58,9 +58,9 @@ hist5 <- ggplot(Newarrests,aes(x=Rape)) + geom_histogram(binwidth = 10, color="w
 # What parameter will you have to adjust to make the other histograms look right? Geohist in the book
 # Change binwidth
 # 5.1 a boxplot for the population
-ggplot(Newarrests, aes(factor(0), y=population)) + geom_boxplot()
+boxplot1 <- ggplot(Newarrests, aes(factor(0), y=population)) + geom_boxplot()
 # 5.2 a boxplot for the murder rate
-ggplot(Newarrests, aes(factor(0), y=Murder)) + geom_boxplot()
+boxplot1 <- ggplot(Newarrests, aes(factor(0), y=Murder)) + geom_boxplot()
 
 # 6 Create a block comment explaining which visualization (boxplot or histogram) 
 # you thought was more helpful (explain why)

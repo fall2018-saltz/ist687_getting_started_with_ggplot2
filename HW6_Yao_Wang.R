@@ -42,18 +42,17 @@ Newarrests <- merge(arrests, states, by=c("stateName"))
 # Step B: Explore the Data – Understanding distributions
 #load the libraries
 library(ggplot2)
-library(reshape2)
-library(tidyverse)
+
 # 4.1 a histogram of the population
 hist1 <- ggplot(Newarrests,aes(x=population)) + geom_histogram(binwidth = 5000000, color="white", fill="orange")
 # 4.2 a histogram of the murder rate
-ggplot(Newarrests,aes(x=Murder)) + geom_histogram(binwidth = 0.5, color="white", fill="orange")
+hist2 <- ggplot(Newarrests,aes(x=Murder)) + geom_histogram(binwidth = 0.5, color="white", fill="orange")
 # 4.3 a histogram of the Assault
-ggplot(Newarrests,aes(x=Assault)) + geom_histogram(binwidth = 20, color="white", fill="orange")
+hist3 <- ggplot(Newarrests,aes(x=Assault)) + geom_histogram(binwidth = 20, color="white", fill="orange")
 # 4.4 a histogram of the UrbanPop
-ggplot(Newarrests,aes(x=UrbanPop)) + geom_histogram(binwidth = 10, color="white", fill="orange")
+hist4 <- ggplot(Newarrests,aes(x=UrbanPop)) + geom_histogram(binwidth = 10, color="white", fill="orange")
 # 4.5 a histogram of the Rape
-ggplot(Newarrests,aes(x=Rape)) + geom_histogram(binwidth = 10, color="white", fill="orange")
+hist5 <- ggplot(Newarrests,aes(x=Rape)) + geom_histogram(binwidth = 10, color="white", fill="orange")
 
 # What parameter will you have to adjust to make the other histograms look right? Geohist in the book
 # Change binwidth

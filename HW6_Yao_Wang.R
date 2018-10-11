@@ -60,7 +60,7 @@ hist5 <- ggplot(Newarrests,aes(x=Rape)) + geom_histogram(binwidth = 10, color="w
 # 5.1 a boxplot for the population
 boxplot1 <- ggplot(Newarrests, aes(factor(0), y=population)) + geom_boxplot()
 # 5.2 a boxplot for the murder rate
-boxplot1 <- ggplot(Newarrests, aes(factor(0), y=Murder)) + geom_boxplot()
+boxplot2 <- ggplot(Newarrests, aes(factor(0), y=Murder)) + geom_boxplot()
 
 # 6 Create a block comment explaining which visualization (boxplot or histogram) 
 # you thought was more helpful (explain why)

@@ -6,7 +6,7 @@
 # but the comments are all original.
 # IST 687. Due is October 11, 2018
 
-# step A: Load and Merge datasets
+# step A: load and merge datasets
 # re-use the code from HW3
 readStates <- function()
 {

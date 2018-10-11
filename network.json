@@ -180,8 +180,11 @@
         },
         {
             "name": "barchart4.png"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-11 15:38:53",
+    "updated_at": "2018-10-11 15:39:15",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

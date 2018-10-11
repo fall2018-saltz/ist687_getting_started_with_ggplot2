@@ -17,12 +17,132 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
+                    "output": "hist1",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "hist1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist2",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "hist2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "states",
                     "type": "csv"
                 }
             ],
             "source": "HW6_Yao_Wang.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist3",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "hist3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist4",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "hist4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist5",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "hist5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "boxplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "boxplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "barchart1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart2",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "barchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart3",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "barchart3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart4",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "barchart4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -37,8 +157,44 @@
             "desc": "",
             "name": "HW6_Yao_Wang.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "hist1.png"
+        },
+        {
+            "name": "hist2.png"
+        },
+        {
+            "name": "hist3.png"
+        },
+        {
+            "name": "hist4.png"
+        },
+        {
+            "name": "hist5.png"
+        },
+        {
+            "name": "boxplot1.png"
+        },
+        {
+            "name": "boxplot2.png"
+        },
+        {
+            "name": "barchart1.png"
+        },
+        {
+            "name": "barchart2.png"
+        },
+        {
+            "name": "barchart3.png"
+        },
+        {
+            "name": "barchart4.png"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-11 00:35:49",
+    "updated_at": "2018-10-11 15:39:23",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

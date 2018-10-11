@@ -37,8 +37,11 @@
             "desc": "",
             "name": "HW6_Yao_Wang.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "hist1.png"
         }
     ],
-    "updated_at": "2018-10-11 00:35:49",
+    "updated_at": "2018-10-11 15:11:09",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

@@ -115,8 +115,11 @@
         },
         {
             "name": "boxplot1.png"
+        },
+        {
+            "name": "boxplot2.png"
         }
     ],
-    "updated_at": "2018-10-11 15:32:07",
+    "updated_at": "2018-10-11 15:33:02",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

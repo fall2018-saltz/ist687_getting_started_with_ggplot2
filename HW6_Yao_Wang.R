@@ -33,6 +33,7 @@ states <- readStates()
 str(states)
 # 2. re-use the code from HW2
 arrests <- USArrests 
+str(arrests)
 # create a column with "stateName", then can merage with the other dataframe "states"
 arrests <- cbind("stateName" =row.names(arrests), arrests)
 

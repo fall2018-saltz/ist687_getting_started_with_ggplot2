@@ -10,7 +10,7 @@
 # re-use the code from HW3
 readStates <- function()
 {
-  clean_data <- raw_data
+  states <- raw_data
   # Read form from outside of R. Create a new dataframe "dfStates", then reserve the form into "dfStates"
   # remover rows that not needed 
   # -- first row is the total for the US, we do not need that 

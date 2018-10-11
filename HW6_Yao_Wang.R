@@ -10,8 +10,8 @@
 # re-use the code from HW3
 readStates <- function()
 {
+  clean_data <- raw_data
   # Read form from outside of R. Create a new dataframe "dfStates", then reserve the form into "dfStates"
-  states <- read.csv("https://www2.census.gov/programs-surveys/popest/datasets/2010-2017/state/asrh/scprc-est2017-18+pop-res.csv", stringsAsFactors = F)
   # remover rows that not needed 
   # -- first row is the total for the US, we do not need that 
   states <- states[-1,]

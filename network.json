@@ -113,6 +113,16 @@
             ],
             "source": "HW6_Yao_Wang.R",
             "target": "barchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart3",
+                    "type": "png"
+                }
+            ],
+            "source": "HW6_Yao_Wang.R",
+            "target": "barchart3.png"
         }
     ],
     "nodes": [
@@ -159,6 +169,6 @@
             "name": "barchart3.png"
         }
     ],
-    "updated_at": "2018-10-11 15:38:30",
+    "updated_at": "2018-10-11 15:38:38",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }

@@ -45,7 +45,7 @@ library(ggplot2)
 library(reshape2)
 library(tidyverse)
 # 4.1 a histogram of the population
-ggplot(Newarrests,aes(x=population)) + geom_histogram(binwidth = 5000000, color="white", fill="orange")
+bar1 <- ggplot(Newarrests,aes(x=population)) + geom_histogram(binwidth = 5000000, color="white", fill="orange")
 # 4.2 a histogram of the murder rate
 ggplot(Newarrests,aes(x=Murder)) + geom_histogram(binwidth = 0.5, color="white", fill="orange")
 # 4.3 a histogram of the Assault

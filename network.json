@@ -50,8 +50,11 @@
         },
         {
             "name": "hist1.png"
+        },
+        {
+            "name": "hist2.png"
         }
     ],
-    "updated_at": "2018-10-11 15:12:05",
+    "updated_at": "2018-10-11 15:25:45",
     "url": "https://github.com/fall2018-saltz/ist687_getting_started_with_ggplot2"
 }
